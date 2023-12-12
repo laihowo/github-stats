@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: macos-13
+    runs-on: macos-latest
 
     steps:
     # Check out repository under $GITHUB_WORKSPACE, so the job can access it
